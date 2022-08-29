@@ -40,9 +40,9 @@ sudo cp *.a /usr/lib
 ### Build ###
 cd ${CalledFromDir}
 # Clone project template
-git clone https://github.com/krogk/cpp-project-template
+git clone https://github.com/krogk/math-toolbox
 # Change dir to the cloned repo
-cd cpp-project-template/
+cd math-toolbox/
 # Create build dir
 mkdir build
 # Change to build dir
@@ -54,5 +54,5 @@ make
 
 ### Test ###
 
-# Run sqrt unit test
-./src/sdk/sqrt/ut/ut-sqrt
+# Run sorting unit test
+./src/sorting/ut/ut-sorting

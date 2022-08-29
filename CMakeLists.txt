@@ -9,10 +9,10 @@ set(DEV_MODE TRUE CACHE BOOL "Enable Dev mode")
 
 # Set project info
 project(
-	cpp-template-project
+	MathToolbox
 	VERSION 0.0.1
-	DESCRIPTION "Lightweight C++ Project Template"
-	HOMEPAGE_URL "%%myurl%%"
+	DESCRIPTION "C++ Math Algos"
+	HOMEPAGE_URL "%%https://github.com/krogk/math-toolbox%%"
 	LANGUAGES CXX C)
 
 # Add src dir
