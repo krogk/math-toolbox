@@ -1,9 +1,21 @@
-# C++ Starter Project
+# C++ Math Toolbox
 
-Light-weight C++ project template based on following technologies:
-* CMake - Build system
-* GTest - Test Framework
+Not(yet) production ready C++20 mathematical toolbox. Implemented as I adventure through the realm of mathematics. 
 
+Implemented:
+
+Sorting:
+* Bubble
+* Insertion
+* Selection
+
+Roadmap (not in any particular order):
+* Soritng Algos
+* Graph Algos
+* Matrix Algebra (using SIMD)
+* Number Theory
+* Coding Theory
+* DSP
 
 # Dependencies
 
@@ -13,5 +25,5 @@ Please read the content of the script before executing it.
 To run the setup script use following command:
 (Run in the directory you wish to have starter cloned to)
 ```
-sudo bash -c "$(wget -O - https://raw.githubusercontent.com/krogk/cpp-project-template/develop/cpp-project-template-setup.sh)"
+sudo bash -c "$(wget -O - https://raw.githubusercontent.com/krogk/cpp-project-template/develop/math-toolbox-setup.sh)"
 ```
